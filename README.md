@@ -1,7 +1,9 @@
 # [Point Connect Data Retrieval via RDMS API](https://developers.refinitiv.com/en/article-catalog/article/point-connect-data-retrieval-via-rdms-api)
 
-- You can check the code to retrieve temperature curve data with other RDMS endpoints in file rdms-pointconnect-temperature.ipynb in this GitHub repository.
-- Retrieve data of multiple curves, merge them together using value_date, and convert to pandas dataframe.
+This repository contains two example files
+- [rdms-pointconnect-temperature.ipynb](https://github.com/Refinitiv-API-Samples/Article.RDMS.Python.RetrievePointConnectData/blob/main/rdms-pointconnect-temperature.ipynb): Demonstrate how to retrieve data temperature curve data with RDMS endpoints
+- [rdms-pointconnect-curve-df.ipynb](https://github.com/Refinitiv-API-Samples/Article.RDMS.Python.RetrievePointConnectData/blob/main/rdms-pointconnect-curve-df.ipynb): Retrieve data of multiple curves, convert to pandas dataframe, and merge them together using value_date.
+
 
 Every day, we are faced with monumental amounts of data and content from every single direction. This includes everything from articles, posts, tweets, and emails flowing into our inboxes to the hundreds of ever-changing fundamentals around the global commodities complex. With Refinitiv Data Management Solution (RDMS) We enable you to make the best possible use of your data, technology, and human or artificial intelligence. We provide you with access to the most comprehensive, trusted, and up-to-date data on the global commodity markets. Our integrated solution ensures consumption of big data in a logical and structured manner, to extract maximum value from your internal or external data sets at a lower cost.
 
